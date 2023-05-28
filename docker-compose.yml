@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  meu-time:
+    container_name: meu-time-container
+    image: meu-time-image
+    build: 
+      context: .
+    ports:
+      - 3000:3000
